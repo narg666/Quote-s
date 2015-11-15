@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	width: auto;
+	max-height: 100%;
+background: #3949AB;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 25px;
+	font-family: 'Lobster', cursive;
+}
+.option-citat{
+	font-size: 18px;
+	color: #fff;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 25px;
+	text-align: center;
+}
+.new-hover{
+	width:240px;
+	margin: 25px auto;
+	height: 40px;
+}
+.button-check{
+	width: 200px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	border-radius: 2px;
+	padding: 10px 20px;	
+}
+.button-check:hover{
+	color: #27ae7c;
+	transition: all .3s;
+	cursor: pointer;
+}
+.hover-new{
+height: 40px;
+width: 0px;
+background: #fff;
+border-radius: 2px;
+transition: width .3s ease-in-out;
+display: block;
+}
+.hover-new:hover{
+	width:240px;
+}
+.content-with-citat{
+	padding: 10px 20px;
+	color: #fff;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+	text-align: center;
+}
+#citats{
+	font-size: 22px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+#autor-citats{
+	color: #27ae7c;
+	font-size: 17px;
+}
